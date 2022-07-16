@@ -75,11 +75,12 @@ body{
 .operations-contents{
     display: block;
     height: 100%;
+    flex: 1;
     overflow: scroll;
 }
 .operations-content{
     display: none;
-    /* flex: 1; */
+    flex: 1;
     overflow: scroll;
     font-size: 2.4rem;
     /* text-align: center; */
