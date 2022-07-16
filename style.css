@@ -39,6 +39,8 @@ body{
     background-color: #fff;
     /* visibility: hidden; */
     box-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.1);
+    overflow:scroll;
+    flex: 1;
 }
 .operations-tab{
     
@@ -73,10 +75,11 @@ body{
 .operations-contents{
     display: block;
     height: 100%;
+    overflow: scroll;
 }
 .operations-content{
     display: none;
-    flex: 1;
+    /* flex: 1; */
     overflow: scroll;
     font-size: 2.4rem;
     /* text-align: center; */
@@ -100,6 +103,10 @@ body{
     background: radial-gradient(68.64% 224.36% at 49.8% 0%, #5DA1E0 5.73%, #228BE6 99.48%);
     color: #ffff;
     border-radius:0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.btn-sub:hover{
+    background:#4dabf7;
 }
 /* .grade option{
     font-size: 1.6rem;
@@ -128,6 +135,10 @@ body{
     border-radius: 0.5rem;
     text-align: center;
     color: #C0B9B9;
+}
+input:focus{
+outline: none;
+border:0.1rem solid #228BE6;
 }
 select{
     background: none;
