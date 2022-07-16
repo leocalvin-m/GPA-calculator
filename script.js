@@ -3,6 +3,8 @@
 const tabContainer = document.querySelector(".operations-tab");
 const tabStyle = document.querySelectorAll(".tab-style");
 const content = document.querySelectorAll(".operations-content");
+const addsub = document.querySelector(".btn-sub");
+console.log(addsub);
 class App {
     constructor() {
         tabContainer.addEventListener('click', this._tabSwitch.bind(this));
