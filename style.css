@@ -60,6 +60,7 @@ body{
     width: 100%;
     transition: all 0.3s ease-in-out;
     text-align: center;
+    padding: 1.2rem;
 }
 .tab-style.tab-active{
     color:#228BE6;
@@ -70,19 +71,70 @@ body{
 
 }
 .operations-contents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     height: 100%;
 }
 .operations-content{
     display: none;
-
+    flex: 1;
+    overflow: scroll;
     font-size: 2.4rem;
+    /* text-align: center; */
 }
 .operations-content.content-active{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items:flex-start;
 
 }
+.btn-sub{
+    border: none;
+    margin:1.2rem 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    /* background-color: ; */
+    text-transform: uppercase;
+    padding: 0.75rem 8rem;
+    background: radial-gradient(68.64% 224.36% at 49.8% 0%, #5DA1E0 5.73%, #228BE6 99.48%);
+    color: #ffff;
+    border-radius:0.5rem;
+}
+/* .grade option{
+    font-size: 1.6rem;
+} */
+
+.sub-container{
+    width: 100%;
+}
+
+.add-sub{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+    
+}
+.inp{
+    width: 30%;
+    padding:0.5rem 0;
+    background: none;
+    border: 0.1rem solid #C0B9B9;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #C0B9B9;
+}
+select{
+    background: none;
+    border: 0.1rem solid #C0B9B9;
+    color: #C0B9B9;
+    border-radius: 0.5rem;
+}
+/* select option{
+    font-size: 1.6rem;
+} */

@@ -7,9 +7,6 @@ class App {
     constructor() {
         tabContainer.addEventListener('click', this._tabSwitch.bind(this));
     }
-    _() {
-
-    }
     _tabSwitch(e) {
         tabStyle.forEach(function (ele) {
             ele.classList.remove("tab-active");
