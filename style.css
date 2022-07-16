@@ -173,6 +173,7 @@ select{
 .final-result{
     font-size: 4.0rem;
     color: #146DBA;
+    font-weight: 700;
 }
 .result-text span{
     color: #787777;
