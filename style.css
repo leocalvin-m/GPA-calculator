@@ -39,8 +39,9 @@ body{
     background-color: #fff;
     /* visibility: hidden; */
     box-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.1);
+    /* flex: 1; */
     overflow:scroll;
-    flex: 1;
+    
 }
 .operations-tab{
     
@@ -75,13 +76,11 @@ body{
 .operations-contents{
     display: block;
     height: 100%;
-    flex: 1;
-    overflow: scroll;
 }
 .operations-content{
     display: none;
-    flex: 1;
-    overflow: scroll;
+    /* flex: 1;
+    overflow: scroll; */
     font-size: 2.4rem;
     /* text-align: center; */
 }
