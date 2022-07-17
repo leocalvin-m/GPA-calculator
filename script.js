@@ -83,8 +83,17 @@ class App {
         }
         console.log(tot, numerator);
         let k = (numerator / tot).toFixed(2);
-        if (isNaN(k)) k = 0;
-        document.querySelector('.final-result').textContent = k;
+        if (isNaN(k)) {
+            const k = 0;
+            document.querySelector('.final-result').textContent = 0;
+            document.querySelector('.percent').textContent = `${0.00}%`;
+
+        } else {
+
+            document.querySelector('.final-result').textContent = k;
+            document.querySelector('.percent').textContent = `${((k - 0.75) * 10).toFixed(2)}%`;
+        }
+
 
 
 

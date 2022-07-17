@@ -148,7 +148,7 @@ select{
 
 .result{
     margin-top:auto;
-    margin-bottom: 15%;
+    /* margin-bottom */
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -184,4 +184,10 @@ select{
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.percent{
+    font-size: 1.6rem;
+    align-self: flex-end;
+    color: #146DBA;
 }
