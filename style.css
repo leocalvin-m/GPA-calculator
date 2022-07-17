@@ -148,7 +148,7 @@ select{
 
 .result{
     margin-top:auto;
-    /* margin-bottom */
+    margin-bottom:15%;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -190,4 +190,5 @@ select{
     font-size: 1.6rem;
     align-self: flex-end;
     color: #146DBA;
+    margin-bottom: 0.5rem;
 }
