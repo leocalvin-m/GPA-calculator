@@ -99,40 +99,12 @@ body{
     text-transform: uppercase;
     padding: 0.75rem 8rem;
     background-color: #4085c3;
-    box-shadow:0.0rem 0.1rem 0.001rem #226198,
-    0.0rem 0.2rem 0.001rem #226198,
-    0.0rem 0.2rem 0.001rem #226198,
-    0.0rem 0.4rem 0.001rem #226198,
-    0.0rem 0.5rem 0.001rem #226198,
-    0.0rem 0.5rem 0.001rem #226198,
-    0.0rem 0.6rem 0.001rem #226198,
-    0.0rem 0.7rem 0.001rem #226198,
-    0.0rem 0.8rem 0.001rem #226198,
-    0.0rem 0.9rem 0.001rem #226198,
-    0.0rem 1.0rem 0.001rem #226198,
-    0.0rem 1.1rem 0.001rem #226198,
-    0.0rem 1.2rem 0.001rem #226198,
-    0.0rem 1.3rem 0.001rem #226198,
-    0.0rem 1.4rem 0.001rem #226198,
-    0.0rem 1.5rem 0.001rem #226198,
-    0.0rem 1.6rem 0.001rem #226198;
-    
-    color:#226198;
+    color:#ffff;
     border-radius:0.5rem;
-    transition: all 0.8s ease-in-out;
-    transform: rotateX(40deg);
+    transition: all 1s ease-in-out;
 }
 .btn-sub:active{
-    transform: translateY(0.75rem);
-    box-shadow:0.0rem 0.1rem 0.001rem #226198,
-    0.0rem 0.2rem 0.001rem #226198,
-    0.0rem 0.2rem 0.001rem #226198,
-    0.0rem 0.4rem 0.001rem #226198,
-    0.0rem 0.5rem 0.001rem #226198,
-    0.0rem 0.5rem 0.001rem #226198,
-    0.0rem 0.6rem 0.001rem #226198,
-    0.0rem 0.7rem 0.001rem #226198,
-    0.0rem 0.8rem 0.001rem #226198;
+    transform: translateY(1.0rem);
 }
 /* .grade option{
     font-size: 1.6rem;
