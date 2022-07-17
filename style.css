@@ -90,7 +90,7 @@ body{
 
 }
 .btn-sub{
-    border: none;
+    border:0.2rem solid #226198;
     margin:1.2rem 0;
     font-size: 1.6rem;
     font-weight: 600;
@@ -98,13 +98,25 @@ body{
     /* background-color: ; */
     text-transform: uppercase;
     padding: 0.75rem 8rem;
-    background: radial-gradient(68.64% 224.36% at 49.8% 0%, #5DA1E0 5.73%, #228BE6 99.48%);
+    background-color: #4085c3;
+    box-shadow:0.0rem 0.1rem 0.001rem #226198,
+    0.0rem 0.2rem 0.001rem #226198,
+    0.0rem 0.2rem 0.001rem #226198,
+    0.0rem 0.4rem 0.001rem #226198,
+    0.0rem 0.5rem 0.001rem #226198,
+    0.0rem 0.5rem 0.001rem #226198,
+    0.0rem 0.6rem 0.001rem #226198,
+    0.0rem 0.7rem 0.001rem #226198,
+    0.0rem 0.8rem 0.001rem #226198,
+    0.0rem 0.9rem 0.001rem #226198,
+    0.0rem 1.0rem 0.001rem #226198;
+    
     color: #ffff;
     border-radius:0.5rem;
     transition: all 0.5s ease-in-out;
 }
-.btn-sub:hover{
-    background:#4dabf7;
+.btn-sub:active{
+    transform: translateY(0.75rem);
 }
 /* .grade option{
     font-size: 1.6rem;
