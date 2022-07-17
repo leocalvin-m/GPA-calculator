@@ -33,6 +33,7 @@ class App {
     _renderInputFields(e) {
         // e.preventDefaults();
         e.preventDefault();
+        navigator.vibrate(100);
 
         const html = `
                                 <div class="sub-container">
