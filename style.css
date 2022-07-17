@@ -101,7 +101,7 @@ body{
     background-color: #4085c3;
     color:#ffff;
     border-radius:0.5rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .btn-sub:active{
     transform: translateY(1.0rem);
