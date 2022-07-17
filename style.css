@@ -179,3 +179,9 @@ select{
     color: #787777;
 
 }
+.inputs_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
