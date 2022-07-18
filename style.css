@@ -5,11 +5,13 @@
 }
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body{
     font-family: sans-serif;
     line-height: 1.1;
+    overflow-x: hidden;
 }
 .container{
     padding: 1rem;
@@ -80,10 +82,12 @@ body{
 .operations-content{
     display: none;
     font-size: 2.4rem;
+    opacity: 0;
     height: 100%;
 }
 .operations-content.content-active{
     display: flex;
+    opacity: 1;
     flex-direction: column;
     /* justify-content: start; */
     align-items:flex-start;
