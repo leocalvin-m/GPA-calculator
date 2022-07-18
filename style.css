@@ -192,3 +192,19 @@ select{
     color: #146DBA;
     margin-bottom: 0.5rem;
 }
+
+.tab-2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.cgpa{
+    max-width: 100%;
+    margin:0 auto;
+}

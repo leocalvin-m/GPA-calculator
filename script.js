@@ -8,6 +8,8 @@ const input = document.querySelector(".inputs_container");
 const credit = document.querySelector(".credit");
 const final = document.querySelector(".final-result");
 const grade = document.querySelector(".grade");
+const cgpa = document.querySelectorAll(".cgpa");
+console.log(cgpa);
 // const sub = credit.closest(".sub-container").querySelector(".grade").value;
 
 // console.log(sub);
@@ -15,6 +17,7 @@ class App {
     constructor() {
         tabContainer.addEventListener('click', this._tabSwitch);
         addsub.addEventListener('click', this._renderInputFields.bind(this));
+        cgpa.forEach((ele) => ele.addEventListener("keyup", this._calcCgpa))
     }
     _tabSwitch(e) {
         e.preventDefault();
@@ -81,7 +84,7 @@ class App {
                 numerator += (parseInt(arr[i].value) * parseInt(arr1[i].value));
             }
         }
-        console.log(tot, numerator);
+        // console.log(tot, numerator);
         let k = (numerator / tot).toFixed(2);
         if (isNaN(k)) {
             const k = 0;
@@ -97,6 +100,24 @@ class App {
 
 
 
+    }
+    _calcCgpa() {
+        const arr3 = document.querySelectorAll(".cgpa");
+        let tot = 0;
+        let count = 0;
+
+
+        for (let i = 0; i < arr3.length; i++) {
+            if (parseFloat(arr3[i].value)) {
+                count++;
+                tot += parseFloat(arr3[i].value);
+
+            }
+
+        }
+        let k = (tot / count).toFixed(2);
+        document.querySelector('.cgpa-result').textContent = k;
+        document.querySelector('.cgpa-percent').textContent = `${((k - 0.75) * 10).toFixed(2)}%`;
     }
 }
 
