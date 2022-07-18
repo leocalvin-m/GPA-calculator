@@ -203,11 +203,22 @@ select{
     align-items: center;
     width: 100%;
     margin-top: 1.2rem;
+
 }
 .tab-2 input{
     /* padding: 0.5rem 1rem; */
     font-size: 1.6rem;
-    color: #146DBA;
+    text-align: center;
+    color:#777;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #C0B9B9;
+    
+
+}
+.tab-2 input:focus{
+    outline: none;
+    border:0.2rem solid #146DBA;
+
 
 }
 .cgpa{
