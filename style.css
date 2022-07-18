@@ -204,6 +204,12 @@ select{
     width: 100%;
     margin-top: 1.2rem;
 }
+.tab-2 input{
+    /* padding: 0.5rem 1rem; */
+    font-size: 1.6rem;
+    color: #146DBA;
+
+}
 .cgpa{
     max-width: 100%;
     margin:0 auto;
